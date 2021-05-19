@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindspace Invaders</title>
+
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='publish.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='signin.css') }}">
+	
+	
+    
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="{{ url_for('static', filename='logo.jpeg') }}" alt="" srcset="">
+            <h1>Hunting Fake News</h1>
+        </div>
+      </div>
+      
+      <div id="wholehomepage">
+        <div class="topnav">
+          <a href="#">City</a>
+          <a href="#">India</a>
+          <a href="#">World</a>
+          <a href="#">Business</a>
+          <a href="#">Tech</a>
+          <a href="#">Sports</a>
+          <button type="button" id="pubbtn">Publish</button>
+        </div>
+        
+        <div class="row">
+          <div class="leftcolumn" id="leftpanel">
+              <div class="card">
+                  <div class="card mb-3" style="max-width: 100%;">
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <a href="p1.html">
+                              <img src="{{ url_for('static', filename='p1.jpg') }}"  alt="post image" style="width: 100%;">
+                          </a> 
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Jio Offers Free Disney+ Hotstar VIP Subscription to Its Prepaid Subscribers</h5>
+                            <p class="card-text">Jio Hotstar offer is now live and can be availed by performing the necessary recharges.</p>
+                            <p class="card-text"><small class="text-muted">By Gaurav Shukla | Updated: 7 June 2020 08:54 IST</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            <div class="card">
+              <div class="card mb-3" style="max-width: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <a href="p1.html">
+                          <img src="{{ url_for('static', filename='p1.jpg') }}"  alt="post image" style="width: 100%;">
+                      </a> 
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Jio Offers Free Disney+ Hotstar VIP Subscription to Its Prepaid Subscribers</h5>
+                        <p class="card-text">Jio Hotstar offer is now live and can be availed by performing the necessary recharges.</p>
+                        <p class="card-text"><small class="text-muted">By Gaurav Shukla | Updated: 7 June 2020 08:54 IST</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+          <div class="rightcolumn">
+            <div class="card">
+              <h2>About Us</h2>
+              <p>The main goal behind this news reading platform is to fight the huge amount of fake news over the internet during times of emergency.</p>
+              <p>The idea of MindSpace Invaders platform generated from the tough times of the Covid pandemic period when the people were continuously misled through fake news</p>
+            </div>
+            <div class="card">
+              <h3>Popular Post</h3>
+              <div style="padding: 1%;">
+                  <a href="./posts/p1.html">
+                      <img src="{{ url_for('static', filename='p2.png') }}" alt="" srcset="" style="width: 20em;">
+                  </a>
+              </div>
+              <div style="padding: 1%;">
+                  <a href="./posts/p1.html">
+                      <img src="{{ url_for('static', filename='p2.png') }}" alt="" srcset="" style="width: 20em;">
+                  </a>
+              </div>
+              <div style="padding: 1%;">
+                  <a href="./posts/p1.html">
+                      <img src="{{ url_for('static', filename='p2.png') }}" alt="" srcset="" style="width: 20em;">
+                  </a>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Follow Us</h3>
+              <div class="social_media">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-instagram-square"></i>
+                  <i class="fab fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container_margin" id="wholesigninpage">
+        <div class="container" id="signincontainer">
+          
+          <h2 style="text-align:center" id="signinh">Login with Social Media or Manually</h2>
+            <form>
+              <div class="row">
+                <div class="vl">
+                  <span class="vl-innertext">or</span>
+                </div>
+          
+                <div class="col">
+                  <a href="#" class="fb btn">
+                    <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                   </a>
+                  <a href="#" class="twitter btn">
+                    <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                  </a>
+                  <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                    </i> Login with Google+
+                  </a>
+                </div>
+          
+                <div class="col">
+                  <div class="hide-md-lg">
+                    <p>Or sign in manually:</p>
+                  </div>
+          
+                  <input type="text" name="username" placeholder="Username" required>
+                  <input type="password" name="password" placeholder="Password" required>
+                  <input value="Login" id="loginbtn">
+                </div>
+                
+              </div>
+            </form>
+        </div>
+          
+          <div class="bottom-container">
+            <div class="row">
+              <div class="col">
+                <a href="#" style="color:white" class="btn">Sign up</a>
+              </div>
+              <div class="col">
+                <a href="#" style="color:white" class="btn">Forgot password?</a>
+              </div>
+            </div>
+          </div>
+      <div>
+          <a href="./index.html" style="text-align: center;"><button type="button" id="homepagebtn">Home Page</button></a>
+      </div>
+    </div>
+
+
+
+
+
+      <div class="container" id="wholepublishpage">
+        <form method="POST">
+            <div class="row">
+                <div class="col-option">
+                    <label for="fname">Title</label>
+                </div>
+                <div class="col-details">
+                    <input type="text" id="fname" name="firstname" placeholder="Title">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-option">
+                    <label for="lname">Author</label>
+                </div>
+                <div class="col-details">
+                    <input type="text" id="lname" name="lastname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-option">
+                <label for="subject">Full Story</label>
+            </div>
+            <div class="col-details">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:400px"></textarea>
+            </div>
+            </div>
+            <div class="row">
+            <!-- <a href="../index.html"><input type="submit" value="Submit"></a> -->
+            <button type="submit" id="pubbtn2">Publish</button>
+            </div>
+        </form>
+      </div>
+
+
+      <div class="footer">
+        <h2>©Copyright by MindSpace Invaders</h2>
+      </div>
+	  <!--
+	  <script type="text/javascript">
+	var leftpanel = document.getElementById('leftpanel');
+	var homepage = document.getElementById('wholehomepage');
+	var signinpage = document.getElementById('wholesigninpage');
+	var publishpage = document.getElementById('wholepublishpage');
+	function create_card(title,author){
+		  signinpage.style.display = 'none';
+		  publishpage.style.display = 'none';
+		  homepage.style.display = 'block';
+		  
+		  var carddiv = document.createElement('div');
+		  carddiv.classList.add('card');
+
+		  var mb3div = document.createElement('div');
+		  mb3div.classList.add('card');
+		  mb3div.classList.add('mb-3');
+
+		  var nogutters = document.createElement('div');
+		  nogutters.classList.add('row');
+		  nogutters.classList.add('no-gutters');
+
+		  var colmd4 = document.createElement('div');
+		  colmd4.classList.add('col-md-4');
+
+		  var link = document.createElement('a');
+		  link.href = 'p1.html';
+
+		  var image = document.createElement('img');
+		  image.src = "/static/logo.jpeg";
+		  image.style.width = '100%';
+
+		  var colmd8 = document.createElement('div');
+		  colmd8.classList.add('col-md-8');
+
+		  var cardbody = document.createElement('div');
+		  cardbody.classList.add('card-body');
+
+		  var h5 = document.createElement('h5');
+		  h5.classList.add('card-title');
+
+		  var p1 = document.createElement('p');
+		  p1.classList.add('card-text');
+
+		  var p2 = document.createElement('p');
+		  p2.classList.add('card-text');
+
+		  p1.innerHTML = title;
+		  p2.innerHTML = 'By ' + author + ' | Updated: 7 June 2020 08:54 IST';
+		  h5.innerHTML = title;
+		  cardbody.appendChild(h5);
+		  cardbody.appendChild(p1);
+		  cardbody.appendChild(p2);
+		  colmd8.appendChild(cardbody);
+		  link.appendChild(image);
+		  colmd4.appendChild(link);
+		  nogutters.appendChild(colmd4);
+		  nogutters.appendChild(colmd8);
+		  mb3div.appendChild(nogutters);
+		  carddiv.appendChild(mb3div);
+		  leftpanel.appendChild(carddiv);
+	}
+        if({{val}}===1){
+			create_card( 'House Dem Aide: We Didnâ€™t Even See Comeyâ€™s Letter Until Jason Chaffetz Tweeted It' , '' );
+		}
+    </script>-->
+      <script src="{{ url_for('static', filename='final6.js') }}"></script>
+</body>
+</html>

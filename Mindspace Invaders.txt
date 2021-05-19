@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<title>Mindspace Invaders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+<body>
+
+<div class="w3-container">
+  <h2>Real News</h2>
+  <p>News Cards : </p>
+
+  <div class="w3-card-4" style="width:30%;">
+    <header class="w3-container w3-blue">
+      <h1>News Headline</h1>
+    </header>
+
+    <div class="w3-container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <footer class="w3-container w3-blue">
+      <h5><a href = "page1.html">Click Here</a> to read complete news</h5>
+    </footer>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="w3-container">
+  <div class="w3-card-4" style="width:30%;">
+    <header class="w3-container w3-blue">
+      <h1>News Headline</h1>
+    </header>
+
+    <div class="w3-container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <footer class="w3-container w3-blue">
+      <h5><a href = "page1.html">Click Here</a> to read complete news</h5>
+    </footer>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="w3-container">
+  <div class="w3-card-4" style="width:30%;">
+    <header class="w3-container w3-blue">
+      <h1>News Headline</h1>
+    </header>
+
+    <div class="w3-container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <footer class="w3-container w3-blue">
+      <h5><a href = "page1.html">Click Here</a> to read complete news</h5>
+    </footer>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="w3-container">
+  <div class="w3-card-4" style="width:30%;">
+    <header class="w3-container w3-blue">
+      <h1>News Headline</h1>
+    </header>
+
+    <div class="w3-container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <footer class="w3-container w3-blue">
+      <h5><a href = "page1.html">Click Here</a> to read complete news</h5>
+    </footer>
+  </div>
+</div>
+<br><br><br>
+<B><I>Want to publish your own news?</I></B><br>
+<button class="button button1">Click Here</button>
+</body>
+</html>

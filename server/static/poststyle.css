@@ -1,0 +1,12 @@
+
+
+.post_img {
+    height: 25em;
+    width: auto;
+    max-width: 70%;
+    background-color: cornflowerblue;
+}
+
+.card {
+    padding: 0 10%;
+}
